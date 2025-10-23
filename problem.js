@@ -1,15 +1,18 @@
-/*
-Create a function that simulates a simple password checking system. The function will take in a password and a user's input as parameters. It will then compare the user's input to the password.
-
-- If the user's input matches the password exactly, log out "Access Granted!"
-- If the user's input does not match, log out "Access Denied!"
-- If the user's input is "forgot", log out "Here is a hint"
-- If the user's input is "reset", log out "Let's reset your account"
-
-Invoke examples of the function that fullfil each condition listed above. Feel free to work locally using node, and then paste your code into this file when it runs.
-
-CHALLENGE
-- If the password set is "forgot" or "reset", aside from "Access Granted", also log: "This password you set should not be used because it glitches the system".
-- If the password is less than 5 characters, log out "Your password is too short!".
-*/
-
+// Create a program that tracks items added to a shopping cart.
+//
+// Initialize the program with an array of objects, representing a cart that already contains 3 items, 
+// where each object represents an item with a name (string) and a price (number).
+//
+// There should be a function that accepts:
+// - the array of objects representing items in the cart 
+// - an object representing an item to add, also containing a name and price.
+// 
+// The function should:
+// - add a new entry to the array of items in the cart
+// - log out a message that lets the user know the name of the item added to the cart
+// - return the total number of items in the cart.
+//
+// Separately, use the return value of the function to log out how many items are in the cart.
+//
+// BONUS: Inside the function, log out "You can no longer use the express checkout!"
+// if there are 7 or more items in the cart.
